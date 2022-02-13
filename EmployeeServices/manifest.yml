@@ -1,0 +1,8 @@
+---
+applications:
+- name: employee-service
+  memory: 256M
+  instances: 1
+  host: employee-service
+  domain: guides.spring.io
+  path: build/libs/employee-service-0.1.0.jar
